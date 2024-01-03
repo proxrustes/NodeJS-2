@@ -6,7 +6,7 @@ function GET() {
             <title>HTML Page</title>
         </head>
         <body>
-            <h1>Hello, this is Lab 2!</h1>
+            <h1>Hello, this is an HTML page!</h1>
         </body>
         </html>
     `);
