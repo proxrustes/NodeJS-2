@@ -1,13 +1,11 @@
-function GET() {
+export function GET() {
   return { firstName: 'Mary', lastName: 'Shelly', age: 45 };
 }
 
-function POST({ name, age }) {
+export function POST({ firstName, lastName, age }) {
   return { firstName, lastName, age };
 }
 
-function OPTIONS() {
-  return { message: 'Options' };
+export function OPTIONS() {
+  return { message: 'POST, GET' };
 }
-
-export { GET, POST, OPTIONS };
