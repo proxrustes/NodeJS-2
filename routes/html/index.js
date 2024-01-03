@@ -12,8 +12,7 @@ function GET() {
     `);
 }
 
-async function POST(req) {
-    console.log(req.body)
+async function POST(payload) {
     return(`<!DOCTYPE html>
     <html>
     <head>
@@ -22,7 +21,7 @@ async function POST(req) {
     <body>
         <h1>Hello, we received your request!</h1>
         <h3>Received Body:</h3>
-        <pre>${await req.body}</pre>
+        <pre>${payload}</pre>
     </body>
     </html>`);
   
