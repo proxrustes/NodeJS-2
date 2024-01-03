@@ -6,9 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "build": "rimraf dist && tsc",
-    "ts.check": "tsc --project tsconfig.json",
-    "add-build": "git add dist",
     "prepare": "husky install",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
