@@ -1,5 +1,5 @@
-function read() {
-    return 'Welcome';
-  }
-  
-  export { read };
+function GET() {
+  return 'Welcome';
+}
+
+export { GET };
