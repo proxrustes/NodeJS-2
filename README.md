@@ -1,4 +1,4 @@
-# Node.js lab 1-2
+# Node.js lab 2
 
 Веб-додаток на Node.js для обробки JSON та XML запитів
 
